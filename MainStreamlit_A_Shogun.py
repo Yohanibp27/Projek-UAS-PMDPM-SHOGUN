@@ -6,7 +6,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from PIL import Image
 
-model = load_model(r"D:\Projek UAS PMDPM SHOGUN\BestModel_VGG16_Shogun.h5")
+model = load_model(r"BestModel_VGG16_Shogun.h5")
 class_names = ['Onion', 'Red_Onion', 'Garlic']
 
 st.markdown("""
